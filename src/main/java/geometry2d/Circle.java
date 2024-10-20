@@ -1,13 +1,29 @@
-package geometry2d.java;
+package geometry2d;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
 
 public class Circle implements Figure {
     private double radius;
+    private static final Logger logger = Logger.getLogger(Circle.class.getName());
+    static {
+        try {
+            FileHandler fh = new FileHandler("figures.log", true);
+            fh.setFormatter(new SimpleFormatter());
+            logger.addHandler(fh);
+            logger.setLevel(Level.SEVERE);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
     public Circle(double radius) {
         if (radius <= 0) {
             throw new IllegalArgumentException("Radius must be positive");
         }
         this.radius = radius;
+        logger.severe("Circle object created");
     }
 
     @Override

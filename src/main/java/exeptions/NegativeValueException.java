@@ -1,4 +1,4 @@
-package exeptions.java;
+package exeptions;
 
 public class NegativeValueException extends Exception {
     public NegativeValueException(String message) {

@@ -1,4 +1,4 @@
-package exeptions.java;
+package exeptions;
 
 public class InvalidDimensionException extends Exception {
     public InvalidDimensionException(String message) {
