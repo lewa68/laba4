@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5d30394-5023-4c63-ae26-144bd7356d6a" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exeptions/java/InvalidDimensionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exeptions/InvalidDimensionException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exeptions/java/NegativeValueException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exeptions/NegativeValueException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/geometry2d/java/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/geometry2d/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/geometry2d/java/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/geometry2d/Figure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/geometry2d/java/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/geometry2d/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/geometry3d/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/geometry3d/Cylinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestGeometry.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,15 +53,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "create.test.in.the.same.root": "true",
-    "settings.editor.selected.configurable": "preferences.fileTypes"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Z:\work\java\laba4\src\main\java\org\example" />
@@ -96,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728801825077</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit">
+      <created>1729402431580</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729402431580</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

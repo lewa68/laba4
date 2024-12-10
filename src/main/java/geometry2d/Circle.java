@@ -1,8 +1,5 @@
 package geometry2d;
-import java.util.logging.Logger;
-import java.util.logging.SimpleFormatter;
-import java.util.logging.FileHandler;
-import java.util.logging.Level;
+import java.util.logging.*;
 
 public class Circle implements Figure {
     private double radius;
@@ -10,7 +7,7 @@ public class Circle implements Figure {
     static {
         try {
             FileHandler fh = new FileHandler("figures.log", true);
-            fh.setFormatter(new SimpleFormatter());
+            fh.setFormatter(new XMLFormatter());
             logger.addHandler(fh);
             logger.setLevel(Level.SEVERE);
         } catch (Exception e) {
